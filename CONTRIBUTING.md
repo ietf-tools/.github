@@ -267,6 +267,6 @@ If you prefer to use the command line:
 
 * Reasonably comprehensive test suites should be written and committed to the project repository.
 * Projects written in Python, should use Python's doctests or unittest framework.
-* Please shoot for a test suite with at least 80% code coverage for new code, as measured by the built-in coverage tests for the rfc-xmldiff or standalone use of coverage.py for other Python projects. For non-Python projects, use the most appropriate test coverage measurement tool.
-* For the rfc-xmldiff, aim for 100% test suite template coverage for new templates.
+* Please shoot for a test suite with at least 80% code coverage for new code, as measured by the built-in coverage tests for the project or standalone use of coverage.py for other Python projects. For non-Python projects, use the most appropriate test coverage measurement tool.
+* Aim for 100% test suite template coverage for new templates.
 * When a reported functional bug is being addressed, a test must be written or updated to fail while the bug is present and succeed when it has been fixed, and made part of the bugfix. This is not applicable for minor functional bugs, typos or template changes.
