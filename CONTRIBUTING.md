@@ -26,6 +26,9 @@ Before going any further, make sure you read the [code of conduct](CODE_OF_CONDU
   - [Git Commit Messages](#git-commit-messages)
   - [Javascript](#javascript)
   - [Python](#python)
+- [Release Procedure](#release-procedure)
+  - [NPM Packages](#npm-packages)
+  - [Python Packages](#python-packages)
 
 ## Workflow Overview
 
@@ -270,3 +273,37 @@ If you prefer to use the command line:
 * Please shoot for a test suite with at least 80% code coverage for new code, as measured by the built-in coverage tests for the project or standalone use of coverage.py for other Python projects. For non-Python projects, use the most appropriate test coverage measurement tool.
 * Aim for 100% test suite template coverage for new templates.
 * When a reported functional bug is being addressed, a test must be written or updated to fail while the bug is present and succeed when it has been fixed, and made part of the bugfix. This is not applicable for minor functional bugs, typos or template changes.
+
+## Release Procedure
+
+All projects follow a standard release procedure:
+
+1. Create a new GitHub Release by clicking the **Draft a new release** button on the project **Releases** page.
+2. Create a new tag based on the **main** branch using a version respecting the [semantic versioning](https://semver.org/) specs. The tag should start with `v` (e.g. `v3.12.2`):
+
+  ![](https://github.com/ietf-tools/common/raw/main/assets/docs/release-create-tag.png)
+
+3. Enter the release title using the same name as the tag to be published. (e.g. `v3.12.2` in the above example)
+4. In the description, insert `*pending*`. The contents will be replaced during the build process with the proper changelog.
+  > *It's best to not leave this field empty as the default is to use the last commit message, which might contain a `[skip ci]` mention and prevent the release build from starting.*
+5. Check the **This is a pre-release** box. This will mark the release as pre-release and prevent it to be displayed as the latest release until the build is completed. This flag will automatically be removed during the build process.
+6. Finally, click **Publish release**.
+7. Follow the additional instructions depending on the project type below:
+  - [NPM Packages](#npm-packages)
+  - [Python Packages](#python-packages)
+
+### NPM Packages
+
+*No additional steps needed. The package is published automatically to NPM during the release build.*
+
+### Python Packages
+
+Python projects that publish a package to PyPI require these additional steps:
+
+> Make sure you created a release first, as detailed [above](#release-procedure).
+
+1. Wait for the build to complete. Upon completion, the release will be marked as latest (no longer as pre-production).
+2. Install the [PyPI-Publish tool](https://github.com/ietf-tools/pypi-publish#readme) on your local machine.
+3. Run `pypi-publish` from the terminal and follow the instructions.
+
+Upon completion, the package will be signed and pushed to PyPI.
