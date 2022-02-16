@@ -27,6 +27,8 @@ Before going any further, make sure you read the [code of conduct](CODE_OF_CONDU
   - [Javascript](#javascript)
   - [Python](#python)
 - [Release Procedure](#release-procedure)
+  - [Auto Semver Deploy *(recommended)*](#auto-semver-deploy-recommended)
+  - [Manual Release Deploy](#manual-release-deploy)
   - [NPM Packages](#npm-packages)
   - [Python Packages](#python-packages)
 
@@ -276,7 +278,20 @@ If you prefer to use the command line:
 
 ## Release Procedure
 
-All projects follow a standard release procedure:
+All projects follow a standard release procedure. There're 2 methods to create a release:
+
+### Auto Semver Deploy *(recommended)*
+
+1. Go the **Actions** tab.
+2. Select the **Publish Python Package** workflow.
+3. Click on the **Run workflow** button.
+4. Check the **Create Production Release** checkbox and click **Run workflow**.
+5. Wait for the workflow build to complete.
+6. Follow the additional instructions depending on the project type below:
+  - [NPM Packages](#npm-packages)
+  - [Python Packages](#python-packages)
+
+### Manual Release Deploy
 
 1. Create a new GitHub Release by clicking the **Draft a new release** button on the project **Releases** page.
 2. Create a new tag based on the **main** branch using a version respecting the [semantic versioning](https://semver.org/) specs. The tag should start with `v` (e.g. `v3.12.2`):
@@ -288,7 +303,8 @@ All projects follow a standard release procedure:
   > *It's best to not leave this field empty as the default is to use the last commit message, which might contain a `[skip ci]` mention and prevent the release build from starting.*
 5. Check the **This is a pre-release** box. This will mark the release as pre-release and prevent it to be displayed as the latest release until the build is completed. This flag will automatically be removed during the build process.
 6. Finally, click **Publish release**.
-7. Follow the additional instructions depending on the project type below:
+7. Wait for the workflow build to complete.
+8. Follow the additional instructions depending on the project type below:
   - [NPM Packages](#npm-packages)
   - [Python Packages](#python-packages)
 
