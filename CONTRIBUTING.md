@@ -254,6 +254,40 @@ If you prefer to use the command line:
     * `style:` Changes that do not affect the meaning of the code *(white-space, formatting, missing semi-colons, etc)*
     * `test:` Adding missing tests or correcting existing tests
 
+### Javascript
+
+#### JS Coding Style
+
+[StandardJS](https://standardjs.com/) is the style guide used for projects.
+
+[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
+
+ESLint and EditorConfig configuration files are present in the project root. Most editors can automatically enforce these [rules](https://standardjs.com/rules.html) and even format your code accordingly as you type.
+
+These rules apply whether the code is inside a `.js` file or as part of a `.vue` / `.html` file.
+
+Refer to the [rules](https://standardjs.com/rules.html) for a complete list with examples. However, here are some of the major ones:
+
+* No semi-colons! :no_entry_sign:
+* Use 2 spaces for indentation
+* Use single quotes for strings (except to avoid escaping)
+* Use camelCase when naming variables and functions
+* Always use `===` instead of `==` (unless you **specifically** need to check for `null || undefined`)
+* No unused variables
+* Keep `else` statements on the same line as their curly braces
+* No trailing commas
+* Files must end with a newline *(only for new .js / .vue files. See the Python directives below for other file types.)*
+
+Finally, avoid using `var` to declare variables. You should instead use `const` and `let`. `var` unnecessarily pollutes the global scope and there's almost no use-case where it should be used.
+
+#### JS Tests
+
+The [Cypress](https://www.cypress.io/) framework is used for javascript testing (in addition to end-to-end testing which covers the whole application).
+
+The tests are located under the `cypress/` directory.
+
+*To be expanded*
+
 ### Python
 
 #### Python Coding Style
