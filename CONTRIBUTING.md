@@ -16,7 +16,7 @@ Before going any further, make sure you read the [code of conduct](CODE_OF_CONDU
   - [Using GitHub CLI](#using-github-cli)
 - [Create a Local Branch](#create-a-local-branch)
 - [Creating a Commit](#creating-a-commit)
-  - [From your editor / GUI tool](#from-your-editor-gui--tool)
+  - [From your editor / GUI tool](#from-your-editor--gui-tool)
   - [From the command line](#from-the-command-line)
 - [Push Commits](#push-commits)
 - [Create a Pull Request](#create-a-pull-request)
@@ -240,19 +240,37 @@ If you prefer to use the command line:
 
 * Use the present tense ("Add feature" not "Added feature")
 * Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
-* Limit the first line to 72 characters or less
+* Limit the first line *(title)* to 72 characters or less
 * Reference issues and pull requests liberally after the first line
-* When only changing documentation, include `[ci skip]` in the commit title
-* Consider starting the commit message with one of the following keywords (see [Conventional Commits](https://www.conventionalcommits.org/) specification):
-    * `chore`: Tool changes, configuration changes and changes to things that do not actually go into production
-    * `ci:` Changes that affect the build system or external dependencies
-    * `docs:` Documentation only changes
-    * `feat:` A new feature
-    * `fix:` A bug fix
-    * `perf:` A code change that improves performance
-    * `refactor:` A code change that neither fixes a bug nor adds a feature
-    * `style:` Changes that do not affect the meaning of the code *(white-space, formatting, missing semi-colons, etc)*
-    * `test:` Adding missing tests or correcting existing tests
+* When only changing documentation, include `[ci skip]` in the commit message *(after the first line (title) when possible)*
+* Start the commit message with one of the following keywords (see [Conventional Commits](https://www.conventionalcommits.org/) specification):
+  * `chore`: Tool changes, configuration changes and changes to things that do not actually go into production
+  * `ci:` Changes that affect the build system or external dependencies
+  * `docs:` Documentation only changes
+  * `feat:` A new feature
+  * `fix:` A bug fix
+  * `perf:` A code change that improves performance
+  * `refactor:` A code change that neither fixes a bug nor adds a feature
+  * `style:` Changes that do not affect the meaning of the code *(white-space, formatting, missing semi-colons, etc)*
+  * `test:` Adding missing tests or correcting existing tests
+* Optionally mention the scope (affected section / module of the project) of the change, in parentheses, between the type keyword and the colon.
+
+#### Examples
+
+- Commit message for a fix:
+  ```
+  fix: sanitize input value in module xyz
+  ```
+- Commit message for a feature with a scope:
+  ```
+  feat(meetings): add new agenda section to the meetings page
+  ```
+- Commit message for a documentation change with a skip build flag:
+  ```
+  docs: add usage information to the README
+  
+  [skip ci]
+  ```
 
 ### Javascript
 
