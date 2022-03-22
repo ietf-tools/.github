@@ -20,6 +20,7 @@ Before going any further, make sure you read the [code of conduct](CODE_OF_CONDU
   - [From the command line](#from-the-command-line)
 - [Push Commits](#push-commits)
 - [Create a Pull Request](#create-a-pull-request)
+  - [PR Checkout Tip](#pr-checkout-tip)
 - [Sync your Fork](#sync-your-fork)
   - [Syncing with uncommitted changes](#syncing-with-uncommitted-changes)
 - [Styleguides](#styleguides)
@@ -191,6 +192,17 @@ Enter a title and description of what your PR includes and click **Create pull r
 Your PR will then be reviewed by the lead developer / other developers. Automated tests will also run on your code to catch any potential errors.
 
 Once approved and merged, your changes will appear in the `main` branch. It's now time to fast-forward your fork to the source repository. This ensures your fork main branch is in sync with the source main branch...
+
+### PR Checkout Tip
+
+It's possible to checkout the source code as it would be if the PR was merged with the target branch:
+
+```sh
+git checkout -f -B <NEW_BRANCH> refs/pull/<PR_NUMBER>/merge
+```
+
+- Replace `<NEW_BRANCH>` with a some name that won't conflict with your existing branches.
+- Replace `<PR_NUMBER>` with the ID of the PR.
 
 ## Sync your Fork
 
