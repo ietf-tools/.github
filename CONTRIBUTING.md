@@ -198,7 +198,7 @@ Once approved and merged, your changes will appear in the `main` branch. It's no
 It's possible to checkout the source code as it would be if the PR was merged with the target branch:
 
 ```sh
-git checkout -f -B <NEW_BRANCH> refs/pull/<PR_NUMBER>/merge
+git checkout -B <NEW_BRANCH> refs/pull/<PR_NUMBER>/merge
 ```
 
 - Replace `<NEW_BRANCH>` with a some name that won't conflict with your existing branches.
