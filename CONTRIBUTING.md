@@ -32,6 +32,7 @@ Before going any further, make sure you read the [code of conduct](CODE_OF_CONDU
   - [Manual Release Deploy](#manual-release-deploy)
   - [NPM Packages](#npm-packages)
   - [Python Packages](#python-packages)
+- [Blocked accounts](#blocked-accounts)
 
 ## Workflow Overview
 
@@ -387,3 +388,7 @@ Python projects that publish a package to PyPI require these additional steps:
 3. Run `pypi-publish` from the terminal and follow the instructions.
 
 Upon completion, the package will be signed and pushed to PyPI.
+
+## Blocked accounts
+
+Any accounts that engaged in vandalism or bot-like behaviour in ietf-tools projects will be blocked. If your account is blocked and you want to unblock it, contact [support@ietf.org](mailto:support@ietf.org).
