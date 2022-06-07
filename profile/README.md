@@ -12,6 +12,7 @@
     
 **Tools**
 
+- [id2xml](https://github.com/ietf-tools/id2xml)
 - [iddiff](https://github.com/ietf-tools/iddiff)
 - [pypi-publish](https://github.com/ietf-tools/pypi-publish)
 - [rfc2html](https://github.com/ietf-tools/rfc2html)
