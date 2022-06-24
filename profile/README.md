@@ -49,7 +49,7 @@
 - [concluded-wgs](https://github.com/ietf-tools/concluded-wgs)
 - [tools-transition-plan](https://github.com/ietf-tools/tools-transition-plan)
 - [tools-workshops](https://github.com/ietf-tools/tools-workshops)
-- [zulip-implementation](https://github.com/ietf-tools/zulip-implementation)
+- [service-plans](https://github.com/ietf-tools/service-plans)
     
 **Others**
 
