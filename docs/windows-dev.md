@@ -27,6 +27,8 @@ This command will enable the required optional components, download the latest L
 
 The first time you launch a newly installed Linux distribution, a console window will open and you'll be asked to wait for files to de-compress and be stored on your machine. All future launches should take less than a second.
 
+> Note that you can install any other Linux distro afterwards from the Microsoft Store.
+
 ## Run WSL for the first time
 
 You can either:
