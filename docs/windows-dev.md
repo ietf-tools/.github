@@ -32,8 +32,9 @@ The first time you launch a newly installed Linux distribution, a console window
 ## Run WSL for the first time
 
 You can either:
-- use **Windows Terminal** and select **Ubuntu** in the dropdown list
+- use **Windows Terminal** *(recommended)* and select **Ubuntu** in the dropdown list
 - from a **Powershell** / **Command Prompt**, type `wsl.exe`
+- from the Start Menu, click on the linux distribution you installed (e.g. Ubuntu)
 
 You'll be prompted to choose a username and password the first time.
 
