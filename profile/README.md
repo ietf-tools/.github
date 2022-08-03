@@ -27,7 +27,8 @@
 <img width="300" height="1" />
     
 **Web Applications**
-    
+
+- [bibxml](https://github.com/ietf-tools/bibxml/)
 - [datatracker](https://github.com/ietf-tools/datatracker)
 - [ietf-at-ui](https://github.com/ietf-tools/ietf-at-ui)
 - [ietf-at](https://github.com/ietf-tools/ietf-at)
