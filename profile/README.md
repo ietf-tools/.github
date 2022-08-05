@@ -28,7 +28,7 @@
     
 **Web Applications**
 
-- [bibxml](https://github.com/ietf-tools/bibxml/)
+- [bibxml-service](https://github.com/ietf-tools/bibxml-service/)
 - [datatracker](https://github.com/ietf-tools/datatracker)
 - [ietf-at-ui](https://github.com/ietf-tools/ietf-at-ui)
 - [ietf-at](https://github.com/ietf-tools/ietf-at)
