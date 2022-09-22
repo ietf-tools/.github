@@ -33,13 +33,13 @@
 - [ietf-at-ui](https://github.com/ietf-tools/ietf-at-ui)
 - [ietf-at](https://github.com/ietf-tools/ietf-at)
 - [ietf-guides](https://github.com/ietf-tools/ietf-guides)
+- [ietf-wikijs](https://github.com/ietf-tools/ietf-wikijs)
 - [mailarch](https://github.com/ietf-tools/mailarch)
 - [wagtail_website](https://github.com/ietf-tools/wagtail_website)
     
 **Modules**
     
 - [common-bootstrap-theme](https://github.com/ietf-tools/common-bootstrap-theme)
-- [ietf-wikijs-auth](https://github.com/ietf-tools/ietf-wikijs-auth)
 - [semver-action](https://github.com/ietf-tools/semver-action)
     
 </td><td valign="top">
