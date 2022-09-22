@@ -33,9 +33,9 @@
 - [ietf-at-ui](https://github.com/ietf-tools/ietf-at-ui)
 - [ietf-at](https://github.com/ietf-tools/ietf-at)
 - [ietf-guides](https://github.com/ietf-tools/ietf-guides)
-- [ietf-wikijs](https://github.com/ietf-tools/ietf-wikijs)
 - [mailarch](https://github.com/ietf-tools/mailarch)
 - [wagtail_website](https://github.com/ietf-tools/wagtail_website)
+- [wiki](https://github.com/ietf-tools/wiki)
     
 **Modules**
     
