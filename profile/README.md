@@ -19,6 +19,7 @@
 - [rfcfold](https://github.com/ietf-tools/rfcfold)
 - [rfclint](https://github.com/ietf-tools/rfclint)
 - [rfctools-common](https://github.com/ietf-tools/rfctools-common)
+- [rfc-errata](https://github.com/ietf-tools/rfc-errata)
 - [rfc-xmldiff](https://github.com/ietf-tools/rfc-xmldiff)
 - [svgcheck](https://github.com/ietf-tools/svgcheck)
 - [xml2rfc](https://github.com/ietf-tools/xml2rfc)
