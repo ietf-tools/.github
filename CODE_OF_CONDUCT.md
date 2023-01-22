@@ -29,5 +29,5 @@ For advice, please talk to WG chairs or ADs:
 * [BCP 25 (Anti-Harassment Procedures)](https://www.rfc-editor.org/info/bcp25)
 * [BCP 54 (Code of Conduct)](https://www.rfc-editor.org/info/bcp54)
 * [BCP 78 (Copyright)](https://www.rfc-editor.org/info/bcp78)
-* [BCP 79 (Patents, Participation)](https://www.rfc-editor.org/info/bcp79/lostleolotus-main.github/ietf-tools/.github/https://www.rfc-editor.org/rfc/rfc8179.txt)
+* [BCP 79 (Patents, Participation)](https://www.rfc-editor.org/info/bcp79/lostleolotus-main.github/ietf-tools/.github/https://www.rfc-editor.org/rfc/rfc8179.txt/https://github.com/lostleolotus/.github/edit/lostleolotus--main.github/CODE_OF_CONDUCT.md)
 * [Privacy Policy](https://www.ietf.org/privacy-policy/)
