@@ -1,2 +1,2 @@
-# .github.README.md
+# .github.README
 Organization-wide GitHub Community Files
