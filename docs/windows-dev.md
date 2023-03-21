@@ -72,6 +72,3 @@ code .
 This will launch VS Code installed on your host and open the folder residing in WSL2.
 
 From there, you can re-open the project in a devcontainer by typing <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd>, then typing `reopen` and select **Remote-Containers: Reopen in Container**. 
-
-> **Tip**: You can avoid having to open the project twice (first in WSL, then in Containers) by launching directly into the container, using installing the [devcontainer CLI](https://code.visualstudio.com/docs/remote/devcontainer-cli#_the-dev-container-cli).
-> Once installed, simply type `devcontainer open` from the project folder. VS Code will launch directly into the project devcontainer.
