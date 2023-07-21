@@ -11,7 +11,7 @@ While most projects can run in a docker container on Windows, you'll likely enco
 **Optional but recommended**
 
 - [Windows Terminal](https://aka.ms/terminal)
-- [Visual Studio Code](https://code.visualstudio.com/), with the **Remote - WSL** and **Remote - Containers** extensions
+- [Visual Studio Code](https://code.visualstudio.com/), with the **WSL** and **Dev Containers** extensions
 
 ## Install WSL2 (Windows Subsystem for Linux)
 
@@ -71,4 +71,4 @@ code .
 
 This will launch VS Code installed on your host and open the folder residing in WSL2.
 
-From there, you can re-open the project in a devcontainer by typing <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd>, then typing `reopen` and select **Remote-Containers: Reopen in Container**. 
+From there, you can re-open the project in a devcontainer by typing <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd>, then typing `reopen` and select **Dev Containers: Reopen in Container**. 
