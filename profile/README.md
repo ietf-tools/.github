@@ -39,6 +39,7 @@
 - [ietf-at](https://github.com/ietf-tools/ietf-at)
 - [ietf-guides](https://github.com/ietf-tools/ietf-guides)
 - [mailarch](https://github.com/ietf-tools/mailarch)
+- [rpc](https://github.com/ietf-tools/rpc)
 - [wagtail_website](https://github.com/ietf-tools/wagtail_website)
 - [wiki](https://github.com/ietf-tools/wiki)
     
