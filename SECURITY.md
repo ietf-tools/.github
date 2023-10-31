@@ -1,1 +1,6 @@
-Refer to the [IETF Infrastructure and Services Vulnerability Disclosure](https://www.ietf.org/about/administration/policies-procedures/vulnerability-disclosure/) on how to disclose vulnerabilities in a secure manner.
+[Refer to the [IETF Infrastructure and Services Vulnerability Disclosure](https://www.ietf.org/about/administration/policies-procedures/vulnerability-disclosure/) on how to disclose vulnerabilities in a secure manner]...
+[answer: you don't ask from my work because I can't answer to scam(you)].
+ [If you want to get paid, get a job. Do you think today you can just hack and you'll be finished?](Another matter: What do you think? Can the kernel put an end to this matter?) '{{("Almost 100 percent of the code I've had has been attacked or reported as fake.  Let's expose as many of you as possible, so reveal the names of the fraudsters.  Please don't let this go any further. I'm really annoyed. Don't make me report that your status is not worthy of being a place for education.  What should educational institutions provide? What should they create? You know this well but do the opposite.  There are many places that haven't been mentioned yet. It's not that I don't know.  Be careful, I guarantee that I will definitely repay the interest if you don't act stupidly like this")}}'
+}...
+    }
+        }
