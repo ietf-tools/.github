@@ -35,8 +35,7 @@
 
 - [bibxml-service](https://github.com/ietf-tools/bibxml-service/)
 - [datatracker](https://github.com/ietf-tools/datatracker)
-- [ietf-at-ui](https://github.com/ietf-tools/ietf-at-ui)
-- [ietf-at](https://github.com/ietf-tools/ietf-at)
+- [author-tools](https://github.com/ietf-tools/ietf-at)
 - [ietf-guides](https://github.com/ietf-tools/ietf-guides)
 - [mailarch](https://github.com/ietf-tools/mailarch)
 - [rpc](https://github.com/ietf-tools/rpc)
