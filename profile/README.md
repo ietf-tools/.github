@@ -15,6 +15,7 @@
     
 **Tools**
 
+- [editor](https://github.com/ietf-tools/editor)
 - [id2xml](https://github.com/ietf-tools/id2xml)
 - [iddiff](https://github.com/ietf-tools/iddiff)
 - [idnits](https://github.com/ietf-tools/idnits)
