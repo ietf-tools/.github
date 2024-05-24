@@ -11,7 +11,7 @@
 🗺️ [View the Roadmap](https://github.com/orgs/ietf-tools/projects/9) | 📔 [Datatracker Website](https://datatracker.ietf.org)
     
 <table><tbody><tr><td valign="top">
-<img width="300" height="1" />
+<img width="250" height="1" />
     
 **Tools**
 
@@ -30,7 +30,7 @@
 - [xml2rfc](https://github.com/ietf-tools/xml2rfc)
     
 </td><td valign="top">
-<img width="300" height="1" />
+<img width="250" height="1" />
     
 **Web Applications**
 
@@ -49,7 +49,7 @@
 - [semver-action](https://github.com/ietf-tools/semver-action)
     
 </td><td valign="top">
-<img width="300" height="1" />
+<img width="250" height="1" />
     
 **Documentation / Notes**
     
