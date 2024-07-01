@@ -127,7 +127,7 @@ For answers to common questions about this code of conduct, see the FAQ at
 
 ## Note
 
-To be clear, this code applies only to interaction with the https://github.com/ietf-tools/ organization and the repositories it contains. Other IETF related gitub repositories and organizations will have their own code of conduct as appropriate.
+To be clear, this code applies only to interaction with the https://github.com/ietf-tools/ organization and the repositories it contains. Other IETF related GitHub repositories and organizations will have their own code of conduct as appropriate.
 
 [homepage]: https://www.contributor-covenant.org
 [v2.1]: https://www.contributor-covenant.org/version/2/1/code_of_conduct.html
