@@ -61,7 +61,6 @@
 **Others**
 
 - [common](https://github.com/ietf-tools/common)
-- [ietf-at-proxy](https://github.com/ietf-tools/ietf-at-proxy)
     
 </td></tr></tbody></table>
 </div>
