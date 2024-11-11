@@ -38,7 +38,7 @@ Before going any further, make sure you read the [code of conduct](CODE_OF_CONDU
 
 Projects use the **Git Feature Workflow** model.
 
-It consists of a **Main** branch which reflects the latest development state. New features / bug fixes are added to this branch until a new release is created, which creates a snapshot of the current branch state and perform deployment tasks.
+It consists of a **Main** branch which reflects the latest development state. New features / bug fixes are added to this branch until a new release is created, which creates a snapshot of the current branch state and performs deployment tasks.
 
 A typical development workflow:
 
@@ -141,7 +141,7 @@ Once you are ready to commit the changes you made to the project code, it's time
 
 ### From your editor / GUI tool
 
-It's generally easier to use either your editor (assuming it has git capabilities) or using a git GUI tool. This ensures you're not missing any new untracked files. Select the changes / new files you wish to include in the commit, enter a meaningful short description of the change (see [Git Commit Messages](#git-commit-messages) section) and create a commit.
+It's generally easier to use either your editor (assuming it has git capabilities) or to use a git GUI tool. This ensures you're not missing any new untracked files. Select the changes / new files you wish to include in the commit, enter a meaningful short description of the change (see [Git Commit Messages](#git-commit-messages) section) and create a commit.
 
 ### From the command line
 
@@ -343,7 +343,7 @@ The tests are located under the `cypress/` directory.
 
 ## Release Procedure
 
-All projects follow a standard release procedure. There're 2 methods to create a release:
+All projects follow a standard release procedure. There are 2 methods to create a release:
 
 ### Auto Semver Deploy *(recommended)*
 
