@@ -313,11 +313,10 @@ Finally, avoid using `var` to declare variables. You should instead use `const` 
 
 #### JS Tests
 
-The [Cypress](https://www.cypress.io/) framework is used for javascript testing (in addition to end-to-end testing which covers the whole application).
+For applications that require browser testing, the [Playwright](https://playwright.dev/) framework should be used.
+These tests are to be located under the `playwright/` directory.
 
-The tests are located under the `cypress/` directory.
-
-*To be expanded*
+For standard testing, the [Vitest](https://vitest.dev/) framework should be used.
 
 ### Python
 
