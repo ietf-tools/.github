@@ -384,16 +384,7 @@ All projects follow a standard release procedure. There are 2 methods to create 
 
 ### Python Packages
 
-Python projects that publish a package to PyPI require these additional steps:
-
-> [!IMPORTANT]  
-> Make sure you created a release first, as detailed [above](#release-procedure).
-
-1. Wait for the build to complete. Upon completion, the release will be marked as latest (no longer as pre-production).
-2. Install the [PyPI-Publish tool](https://github.com/ietf-tools/pypi-publish#readme) on your local machine.
-3. Run `pypi-publish` from the terminal and follow the instructions.
-
-Upon completion, the package will be signed and pushed to PyPI.
+*No additional steps needed. The package is published automatically to PyPI during the release build.*
 
 ## Blocked accounts
 
