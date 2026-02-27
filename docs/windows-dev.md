@@ -6,7 +6,7 @@ While most projects can run in a docker container on Windows, you'll likely enco
 
 - Windows 10 version 2004 and higher (Build 19041 and higher), or Windows 11
 - Virtualization enabled on your machine
-- [Docker Desktop](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
 **Optional but recommended**
 
