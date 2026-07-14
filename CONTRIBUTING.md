@@ -299,7 +299,9 @@ If you prefer to use the command line:
 
 [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
 
-ESLint and EditorConfig configuration files are present in the project root. Most editors can automatically enforce these [rules](https://standardjs.com/rules.html) and even format your code accordingly as you type.
+New projects should use the [Oxc](https://oxc.rs/) family of tools — e.g. [`oxlint`](https://oxc.rs/docs/guide/usage/linter.html) for linting and `oxc`'s formatter. These are the preferred tooling going forward. EditorConfig configuration files are present in the project root, and most editors can automatically enforce these [rules](https://standardjs.com/rules.html) and even format your code accordingly as you type.
+
+You may still see ESLint configuration files in older projects. ESLint is considered legacy and is kept only for backwards compatibility; it should not be adopted for new work.
 
 These rules apply whether the code is inside a `.js` file or as part of a `.vue` / `.html` file.
 
