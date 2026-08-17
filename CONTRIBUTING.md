@@ -9,6 +9,8 @@ Before going any further, make sure you read the [code of conduct](CODE_OF_CONDU
 
 #### Table Of Contents
 
+- [Requirements for Contributions](#requirements-for-contributions)
+  - [Contributors using AI coding agents](#contributors-using-ai-coding-agents)
 - [Workflow Overview](#workflow-overview)
 - [Creating a Fork](#creating-a-fork)
 - [Cloning a Fork](#cloning-a-fork)
@@ -34,6 +36,36 @@ Before going any further, make sure you read the [code of conduct](CODE_OF_CONDU
   - [NPM Packages](#npm-packages)
   - [Python Packages](#python-packages)
 - [Blocked accounts](#blocked-accounts)
+
+## Requirements for contributions
+
+All contributions to IETF Tools enter a queue to be reviewed by one or more of the maintainers reading every line of submitted code.  This is a time-consuming effort and your cooperation is required to ensure that this is time well spent. This review is necessary to ensure:
+
+* **The code is well written and can be maintained**. The IETF has ultimate responsibility for maintaining IETF Tools and needs to be sure it can do that if the original contributer disappears.
+* **The code functions efficiently**. There have been multiple examples of PRs that produced SQL query storms that work fine in development but take minutes to complete in production.
+* **The code is secure and data integrity maintained**. While most of our code is for public systems, the integrity of that data is critical to the IETF and it cannot risk intentional or inadvertant changes to data stored or supplied to a requesting person/process.
+* **The right logic is in the right place**. Many of the IETF Tools are complex systems with multiple moving parts and if core elements of logic are repeated in multiple places then that quickly causes issues.
+
+Accordingly, the requirements for all code contributions are as follows. Please note that each of these is a showstopper, if you do not meet any of these requirements then your PR will be rejected:
+
+1. The PR must include a human-readable, high-level plan that explains the work. 
+2. It must be broken down into small pieces, each of which is individually reviewable. 
+3. The code must following the existing style of the project.  See [Styleguides](#styleguides) below.
+4. The code must must be fully covered by tests and any new tests included must meet the test strategy for that project.
+5. Any new dependencies must be clearly called out and justification provided as to why they are needed.
+6. The code must not operate in a way that is incompatible with IETF policy or require a community policy decision before being merged. If it does require a community policy decision, then resolve that before submitting the PR.
+7. The rest of this document is complied with.
+
+### Contributors using AI coding agents
+
+The IETF recognises the potential of AI coding agents to find difficult bugs, expose hidden performance issues and enable ambitious projects and will accept AI-generated code, if it conforms to the requirements above.  However, please note the following guidance given the unique nature of AI-generated code:
+
+* At the very least you must fully understand what it is the code is intended to do and how it fits into the IETF Tools it is intended for.  This means that you have read and understood every line of the human-readable plan that explains your PR as this plan is key to determining if the code will be read and seriously considered for a merge. 
+* AI agents often write in a unique jargon that humans find difficult to read.  If you are using AI to write the human-readable plan or any other documentationm then must be written in simple technical English without the jargon that besets AI coding agent output.
+* You are more than just putting your name to this, you are committing to fix any issues that arise from your code or risk it being stripped out and further contributions refused.
+
+It is expected that, over time, regular AI contributors will become known and trusted and potentially some of these requirements will be loosened for those contributors.
+
 
 ## Workflow Overview
 
