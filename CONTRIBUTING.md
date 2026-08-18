@@ -46,9 +46,9 @@ All contributions to IETF Tools enter a queue to be reviewed by one or more of t
 * **The code is secure and data integrity maintained**. While most of our code is for public systems, the integrity of that data is critical to the IETF and it cannot risk intentional or inadvertant changes to data stored or supplied to a requesting person/process.
 * **The right logic is in the right place**. Many of the IETF Tools are complex systems with multiple moving parts and if core elements of logic are repeated in multiple places then that quickly causes issues.
 
-Accordingly, the requirements for all code contributions are as follows. Please note that each of these is a showstopper, if you do not meet any of these requirements then your PR will be rejected:
+Accordingly, the requirements for all code contributions are as follows. If your PR does not meet these requirements then we will ask you to amend it before it is considered for a merge.
 
-1. The PR must include a human-readable, high-level plan that explains the work. 
+1. The PR must include a human-readable explanation of the work in the PR description, that is proportionate to the size of the PR (i.e. a large PR for a new feature needs to go into much more detail than a quick fix).
 2. It must be broken down into small pieces, each of which is individually reviewable. 
 3. The code must following the existing style of the project.  See [Styleguides](#styleguides) below.
 4. The code must must be fully covered by tests and any new tests included must meet the test strategy for that project.
@@ -60,11 +60,11 @@ Accordingly, the requirements for all code contributions are as follows. Please 
 
 The IETF recognises the potential of AI coding agents to find difficult bugs, expose hidden performance issues and enable ambitious projects and will accept AI-generated code, if it conforms to the requirements above.  However, please note the following guidance given the unique nature of AI-generated code:
 
-* At the very least you must fully understand what it is the code is intended to do and how it fits into the IETF Tools it is intended for.  This means that you have read and understood every line of the human-readable plan that explains your PR as this plan is key to determining if the code will be read and seriously considered for a merge. 
-* AI agents often write in a unique jargon that humans find difficult to read.  If you are using AI to write the human-readable plan or any other documentationm then must be written in simple technical English without the jargon that besets AI coding agent output.
+* At the very least you must fully understand what it is the code is intended to do and how it fits into the IETF Tools it is intended for.  This means that you have read and understood every line of the human-readable explanation of your PR as this explanation is key to determining if the code will be read and seriously considered for a merge. 
+* AI agents often write in a unique jargon that humans find difficult to read.  If you are using AI to write the human-readable explanation or any other documentation then this must be written in simple technical English without the jargon that besets AI coding agent output.
 * You are more than just putting your name to this, you are committing to fix any issues that arise from your code or risk it being stripped out and further contributions refused.
 
-It is expected that, over time, regular AI contributors will become known and trusted and potentially some of these requirements will be loosened for those contributors.
+It is expected that, over time, regular AI contributors will become known and trusted and potentially some of these requirements will be adjusted for those contributors.
 
 
 ## Workflow Overview
