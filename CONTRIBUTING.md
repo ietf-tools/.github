@@ -49,7 +49,7 @@ All contributions to IETF Tools enter a queue to be reviewed by one or more of t
 Accordingly, the requirements for all code contributions are as follows. If your PR does not meet these requirements then we will ask you to amend it before it is considered for a merge.
 
 1. The PR must include a human-readable explanation of the work in the PR description, that is proportionate to the size of the PR (i.e. a large PR for a new feature needs to go into much more detail than a quick fix).
-2. It must be broken down into small pieces, each of which is individually reviewable. 
+2. It must be broken down into small enough commits for each to be individually reviewable. 
 3. The code must follow the existing style of the project.  See [Styleguides](#styleguides) below.
 4. The code must be fully covered by tests and any new tests included must meet the test strategy for that project.
 5. Any new dependencies must be clearly called out and justification provided as to why they are needed.
