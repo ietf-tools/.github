@@ -46,7 +46,7 @@ All contributions to IETF Tools enter a queue to be reviewed by one or more of t
 * **The code is secure and data integrity maintained**. While most of our code is for public systems, the integrity of that data is critical to the IETF and it cannot risk intentional or inadvertent changes to data stored or supplied to a requesting person/process.
 * **The right logic is in the right place**. Many of the IETF Tools are complex systems with multiple moving parts and if core elements of logic are repeated in multiple places then that quickly causes issues.
 
-Accordingly, the requirements for all code contributions are as follows. If your PR does not meet these requirements then we will ask you to amend it before it is considered for a merge.
+Accordingly, we have a set of requirements for all code contributions. If your PR does not meet these requirements then our response will depend on the state of the PR. If it is almost there then we generally provide specific guidance or make the adjustments ourselves and if it looks promising but more work is needed then we generally ask the submitter to rework it.  If however it's obviously low quality or requires excessive effort for us to assess, then we generally reject without engagement. The requirements are:
 
 1. The PR must include a human-readable explanation of the work in the PR description, that is proportionate to the size of the PR (i.e. a large PR for a new feature needs to go into much more detail than a quick fix).
 2. It must be broken down into small enough commits for each to be individually reviewable. 
